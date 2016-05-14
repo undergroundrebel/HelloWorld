@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace HelloWorldCSharp
 {
-    class Program
+    class HelloWorldCSharp
     {
-        static void Main(string[] args)
+        public static int Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
+            return 0;
         }
     }
 }
